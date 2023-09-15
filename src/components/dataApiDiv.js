@@ -27,7 +27,8 @@ export default async function dataApiDiv() {
 
       name.innerHTML = "<b>Name: </b>" + contact.name;
       email.innerHTML = "<b>Email: </b>" + contact.email;
-      button.innerHTML = "DELETE";
+      button.innerHTML = "<img src='https://api.iconify.design/material-symbols:delete-outline.svg' />";
+      button.classList = "deleteBt";
       button.addEventListener(
         "click",
         () => deleteContact(userId, userName),

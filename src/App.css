@@ -1,20 +1,10 @@
-.formNew{
+.formNew {
   visibility: hidden;
 }
 
-.show{
-  transition: .3s;
+.show {
+  transition: 0.3s;
   visibility: visible;
-}
-
-form{
-  min-height: 30px;
-  display: flex;
-  background-color: #1e1e1e;
-  padding: 1.5rem;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .card {
@@ -23,7 +13,6 @@ form{
   flex-wrap: wrap;
   padding: 1rem 0rem 0rem 0rem;
   border-radius: 5px;
-  
 }
 .App {
   margin: 0rem 10rem 0rem 10rem;
@@ -55,12 +44,35 @@ form{
   border-radius: 15px;
 }
 
-.top{
+.top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
+
+.btAdd {
+  background-color: rgb(68, 212, 87);
+}
+
+.btNewDiv {
+  background-color: rgb(56, 81, 209);
+}
+
+.deleteBt img {
+  width: 25px;
+}
+
+form {
+  min-height: 30px;
+  display: flex;
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 button {
   margin: 10px;
   border: none;
@@ -74,16 +86,8 @@ button {
   border-radius: 5px;
 }
 
-.btAdd{
-  background-color: rgb(68, 212, 87);
-}
-
-.btNewDiv{
-  margin: 2rem;
-}
-
 button:hover {
-  background-color: #e13b3b;
+  background-color: #b5b5b5;
 }
 
 button::after {
@@ -102,6 +106,7 @@ h1 {
   margin: 2rem;
 }
 
-input{
+input {
   width: 10rem;
+  margin-left: 0.5rem;
 }
