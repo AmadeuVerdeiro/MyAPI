@@ -15,6 +15,4 @@ In summary, my web application is a synergy of technologies and platforms, with 
 
 @AmadeuVerdeiro
 
-{#  _    _  #}
  # |  DB  | #     https://www.doublebrackets.net
-{#          #}
